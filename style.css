@@ -1,0 +1,136 @@
+#mainNav {
+    padding: 1.2rem;
+    background-color: #2d3e50;
+
+    .navbar-brand {
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    .navbar-nav li.nav-item a.nav-link {
+        color: white;
+        font-size: 1.2rem;
+
+        &:hover {
+            color: #1bbc9b;
+        }
+    }
+}
+
+.masthead {
+    padding-top: calc(8rem + 72px);
+    padding-bottom: 8rem;
+
+}
+
+.masthead h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.masthead-subheading {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.bg-primary {
+    background-color: #1bbc9b !important;
+}
+
+.page-section {
+    padding: 2rem 2rem;
+}
+
+.portfolio-item img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.lead {
+    font-weight: 400;
+}
+
+
+
+/* <a> etiketi için stil */
+a.btn-outline-light {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+
+}
+
+/* Hover durumunda butonun stilini değiştirme */
+a.btn-outline-light:hover,
+a.btn-outline-light:focus {
+    background-color: #fff;
+    /* Hover veya focus durumunda arka plan beyaz olur */
+
+}
+
+.contact{
+    background-color: #2d3e50;
+    color: #fff;
+    padding: 1.5rem;
+
+    a{
+        color: #1bbc9b;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}
+
+footer .copyright {
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif; /* Yazı tipini değiştirme */
+    color: #fff;
+    text-align: center;
+
+  
+    background-color: #222; /* Daha koyu bir arka plan */
+    border-radius: 5px; /* Yuvarlak köşeler */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  }
+  
+  /* Hover efekti */
+  footer {
+    background-color: #343a40; /* Daha koyu bir arka plan rengi */
+    color: white;
+    font-size: 1rem; /* Daha küçük font boyutu */
+  }
+  
+  /* Copyright Kısmı */
+  footer .copyright {
+    font-size: 1.1rem; /* Copyright yazısını biraz büyütüyoruz */
+    color: #ffffff; /* Yazıyı beyaz yapmak */
+    text-align: center; /* Ortalamak */
+    display: block; /* Satırda görünmesini sağlamak */
+  }
+  
+  /* Copyright metni hover efekti */
+  footer .copyright:hover {
+    color: #1bbc9b; /* Renk değişimi hover durumunda */
+    cursor: pointer; /* İmleci pointer yaparak tıklanabilir yap */
+  }
+  
+  /* Responsive Tasarım: Mobilde daha iyi görünüm */
+  @media (max-width: 768px) {
+    footer {
+      padding: 20px 0; /* Mobilde üst ve alt padding */
+    }
+    footer .copyright {
+      font-size: 1rem; /* Küçük ekranlarda font boyutunu küçültme */
+    }
+  }
+
